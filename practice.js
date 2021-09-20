@@ -30,3 +30,17 @@
 // plusMinus(arr)
 
 // 2
+// const arr = [1,3,5,7,9]
+
+// function miniMaxSum(arr) {
+//   const reducer = (a,b) => a + b
+
+//   arr.sort()
+
+//   let max = arr.slice(0, arr.length - 1).reduce(reducer)
+//   let min = arr.slice(1).reduce(reducer)
+
+//   console.log(max, min)
+// }
+
+// miniMaxSum(arr)
