@@ -44,3 +44,61 @@
 // }
 
 // miniMaxSum(arr)
+
+// 3 Time: Standard to Military 
+// const string = "04:05:45AM"
+
+// function timeConversion(s) {
+//   let hour = s.substring(0,2) * 1
+//   let timeFormat = s.substring(2,8)
+//   // midnight
+//   if(s.endsWith("AM") && hour ===12) {
+//     return ("00" + timeFormat)
+//   } 
+//     // noon
+//     else if(s.endsWith("PM") && hour === 12) {
+//     return hour + timeFormat
+//   } 
+//     // PM times  
+//     else if(s.endsWith("PM")) {
+//     return hour + 12 +timeFormat
+//   } 
+//     // all other times in AM
+//     else {
+//       if(hour < 10 && s.endsWith("AM")) {
+//         return "0" + hour +timeFormat
+//       }
+//     return hour + timeFormat
+//   }
+// }
+
+// timeConversion(string)
+
+// Test: find the Median
+
+// arr = [5,3,1,2,4]
+
+// function findMedian(arr) {
+//   const sortArr = arr.sort((a, b) => a - b)
+//   const mid = Math.ceil(sortArr.length / 2)
+  
+//   const median = sortArr.length % 2 == 0 ? (sortArr[mid] + sortArr[mid - 1] / 2) : sortArr[mid - 1]
+  
+//   return median
+// }
+
+// findMedian(arr)
+
+// Day 2 \\
+const a = [1,2,3,4,3,2,1]
+
+const lonelyInteger = (arr) => {
+  let alreadySeen = false
+  let duplicates = []
+
+  console.log(arr.sort((a,b) => a - b))
+  
+}
+
+
+lonelyInteger(a)
